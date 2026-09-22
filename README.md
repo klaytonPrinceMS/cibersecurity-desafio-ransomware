@@ -22,8 +22,9 @@ Uma ferramenta de linha de comando simples e segura desenvolvida em Python para 
 
 1. **Clone o repositório:**
    ```bash
+   mkdir cripto
    git clone https://github.com/klaytonPrinceMS/cibersecurity-desafio-ransomware
-   cd seu-repositorio
+   cd cripto
    ```
 
 2. **Crie e ative um ambiente virtual (recomendado):**
@@ -55,9 +56,9 @@ O script `klayton.py` aceita dois parâmetros obrigatórios:
 Para criptografar um arquivo comum (ex: `documento.pdf` ou `mensagem.txt`):
 
 ```bash
-python criptografia.py --arquivo mensagem.txt --senha MinhaSenhaSegura123
+python criptografia.py --arquivo arquivoParaCriptografar.txt --senha MinhaSenhaSegura123
 ```
-* **Resultado:** O arquivo original será substituído pelo arquivo criptografado `mensagem.txt.cripto`.
+* **Resultado:** O arquivo original será substituído pelo arquivo criptografado `arquivoParaCriptografar.txt.cripto`.
 
 ---
 
