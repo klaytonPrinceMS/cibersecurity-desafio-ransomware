@@ -7,3 +7,4 @@ env/
 # Arquivos compilados do Python
 __pycache__/
 *.pyc
+/.idea
